@@ -11,3 +11,4 @@ sysdig_os_family: [
 
 sysdig_network_retry: 10
 sysdig_installer: "https://s3.amazonaws.com/download.draios.com/stable/install-agent"
+dragent_pid: "/var/run/dragent.pid"

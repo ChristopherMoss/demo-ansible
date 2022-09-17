@@ -25,5 +25,7 @@
 
   register: sysdig_install
   retries: "{{ sysdig_network_retry | int }}"
-  until: sysdig_install is success
+  until: 
+    - dragent_pid is file
+    - sysdig_install is success
   tags: sysdig_install

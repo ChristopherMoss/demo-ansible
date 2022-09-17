@@ -1,0 +1,194 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c583784806a5507cf2e8a74be2bc51bdac4e746b915d415246ed5b3f213ad8c8",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "656855656da00bc1ca5219de69aa2f86ed11e1b9e1f8a511aecc5ea23d5f08f8",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b14fed0732d3d3d893dd5cbfd9b4968d625b4b7f52c9cd7c8abc272fe7d80bc6",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0159f8e0677598043aefd94e47b3f8fa57142078b59a32349846cb3457445e0f",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da7322322748f3e4c625f407dec4dc9c1650060b40617a06d736628acdcd112e",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tasks/actions",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tasks/actions/start-debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b7e00e31888444aa2f56ce56d6fb2ae7e1d5595ed5c0c62a2a1c5621ed3e3e8a",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tasks/install",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tasks/install/install-debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "226ea5c5fef5bdb561fdeaab7841c0d8c25c3e008407cec44eeb0609bfea989f",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tasks/conf",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tasks/conf/configure-agent.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "85ab1ba95a119ad6a9c8f666346f1770d5a9ca1a98c07db746155363ad44cb50",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fc752f24acaf56698412b04788324d4114649e682d1240225e7d079415230534",
+   "format": 1
+  },
+  {
+   "name": "roles/logdna/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc751d75266f757a38189f15d54e548dc87706f14a39756995c27b49eaca8a07",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd9c45a7bb36b6d48ee5b70178f581d0eb452dedd323e32f763644865613a611",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0f425d599bb8ccf369390e3fc8bde7b08bc2fed06fac353536239a338e76f4f8",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

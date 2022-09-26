@@ -1,8 +1,8 @@
 # Ansible Collection - IBM Demo
 
-Roles for IBM Cloud Demo scenarios, not to be used for production.
+Roles for IBM Cloud Demo scenarios, not to be used for production. Produced as supporting material for showcasing IBM Cloud architectual patterns
 
-# Roles
+## Roles
 
 | Role            | Description                                         | Operating Systems|
 | --------------- | --------------------------------------------------- | ---------------- |
@@ -10,7 +10,7 @@ Roles for IBM Cloud Demo scenarios, not to be used for production.
 | sysdig          | Role to deploy a Sysdig Agent on a VSI in IBM Cloud | Ubuntu 18.04 +   |
 | demo            | Role to deploy a Demo Application in IBM Cloud      | Ubuntu 18.04 +   |
 
-# Using this collection
+## Using this collection
 
 These roles are designed to be installed in a high  curated manner from User Data in a newly deploy VSI. The following will deploy on Ubuntu Only. Please note, Python3 must first be installed before running this collection.
 

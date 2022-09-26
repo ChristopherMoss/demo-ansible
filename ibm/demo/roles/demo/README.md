@@ -16,8 +16,7 @@ Role Variables
 | variable        | Description                              | Example                   |
 | --------------- | ---------------------------------------- | ------------------------- |
 | demo_role      | Role of the server        | either "front or "back" |
-| demo_lb_back     | Address of the application load balancer   | "1e238205-us-south.lb.appdomain.cloud
-"                  |
+| demo_lb_back     | Address of the application load balancer   | "1e238205-us-south.lb.appdomain.cloud" |
 
 Dependencies
 ------------
@@ -31,7 +30,7 @@ Example Playbook
     collections:
       - ibm.demo
     roles:
-      - sysdig
+      - demo
 ```
 License
 -------

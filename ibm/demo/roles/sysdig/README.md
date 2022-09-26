@@ -13,12 +13,12 @@ Role Variables
 
 **Defaults**
 
-| variable        | Description                              | Example          |
-| --------------- | ---------------------------------------- | ---------------- |
-| sysdig_key      | Access key for the Sysdig Server         | True             |
-| sysdig_port     | Port the Sysdig Server is listening on   | "6443"           |
-| sysdig_endpoint | Location of the Sysdig Server            | ["ingest.private.us-south.monitoring.cloud.ibm.com"]|
-| sysdig_tags     | Agent tags                               | "web","prod"     |
+| variable        | Description                              | Example                   |
+| --------------- | ---------------------------------------- | ------------------------- |
+| sysdig_key      | Access key for the Sysdig Server         | "dfsdfsdfsdfsdf345j34o5n" |
+| sysdig_port     | Port the Sysdig Server is listening on   | "6443"                    |
+| sysdig_endpoint | Location of the Sysdig Server            | "ingest.private.us-south.monitoring.cloud.ibm.com"|
+| sysdig_tags     | Agent tags                               | "web","prod"              |
 
 
 Dependencies

@@ -4,11 +4,11 @@ Roles for IBM Cloud Demo scenarios, not to be used for production.
 
 # Roles
 
-1| Role            | Description                                         | Operating Systems|
-2| --------------- | --------------------------------------------------- | ---------------- |
-3| logdna          | Role to deploy a LogDNA Agent on a VSI in IBM Cloud | Ubuntu 18.04 +   |
-4| sysdig          | Role to deploy a Sysdig Agent on a VSI in IBM Cloud | Ubuntu 18.04 +   |
-5| demo            | Role to deploy a Demo Application in IBM Cloud      | Ubuntu 18.04 +   |
+| Role            | Description                                         | Operating Systems|
+| --------------- | --------------------------------------------------- | ---------------- |
+| logdna          | Role to deploy a LogDNA Agent on a VSI in IBM Cloud | Ubuntu 18.04 +   |
+| sysdig          | Role to deploy a Sysdig Agent on a VSI in IBM Cloud | Ubuntu 18.04 +   |
+| demo            | Role to deploy a Demo Application in IBM Cloud      | Ubuntu 18.04 +   |
 
 # Using this collection
 

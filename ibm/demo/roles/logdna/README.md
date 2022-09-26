@@ -1,4 +1,4 @@
-Role Name
+logdna
 =========
 
 To deploy a LogDNA Agent on an Ubuntu VSI.
@@ -24,16 +24,6 @@ Role Variables
 | logdna_apihost  | LogDNA API Host                                     |  "api.us-south.logging.cloud.ibm.com "  |
 | logdna_loghost  | LogDNA Key                                          |  "logs.private.us-south.logging.cloud.ibm.com"  |
 
-
-
-
-| Role            | Description                                         | Operating Systems|
-| --------------- | --------------------------------------------------- | ---------------- |
-| logdna          | Role to deploy a LogDNA Agent on a VSI in IBM Cloud | Ubuntu 18.04 +   |
-| sysdig          | Role to deploy a Sysdig Agent on a VSI in IBM Cloud | Ubuntu 18.04 +   |
-| demo            | Role to deploy a Demo Application in IBM Cloud      | Ubuntu 18.04 +   |
-
-
 Dependencies
 ------------
 
@@ -41,13 +31,13 @@ Nil
 
 Example Playbook
 ----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
-
+```
+  - hosts: localhost
+    collections:
+      - ibm.demo
+    roles:
+      - logdna
+```
 License
 -------
 
